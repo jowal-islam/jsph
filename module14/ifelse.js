@@ -17,7 +17,25 @@
 //   console.log('you have access')
 // }
 
-let isLoggedIn = false;
-if(!isLoggedIn){
-  console.log('plaase log in');
+// let isLoggedIn = false;
+// if(!isLoggedIn){
+//   console.log('plaase log in');
+// }
+// let isWeekend = true;
+// let isHoliday = false;
+// if(isWeekend || isHoliday){
+//   console.log('you can sleep late')
+// } else{
+//   console.log('you have to wake up early');
+// }
+
+
+let isAdmin = false;
+let isModerator = false;
+let isLoggedIn = true;
+
+if((isAdmin || isModerator) && isLoggedIn){
+  console.log("access granted");
+}else{
+  console.log('acces is denied');
 }
