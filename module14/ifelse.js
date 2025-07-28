@@ -30,12 +30,13 @@
 // }
 
 
-let isAdmin = false;
-let isModerator = false;
-let isLoggedIn = true;
+// let isAdmin = false;
+// let isModerator = false;
+// let isLoggedIn = true;
 
-if((isAdmin || isModerator) && isLoggedIn){
-  console.log("access granted");
-}else{
-  console.log('acces is denied');
-}
+// if((isAdmin || isModerator) && isLoggedIn){
+//   console.log("access granted");
+// }else{
+//   console.log('acces is denied');
+// }
+
