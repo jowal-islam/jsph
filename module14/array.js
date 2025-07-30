@@ -21,10 +21,14 @@
 // fruits.pop('apple');
 // console.log(fruits);
 
-let books = ['English', 'Math'];
-books.push('science');
-books.push('history');
-console.log(books);
-let removeBook = books.pop();
-console.log(removeBook);
-console.log(books);
+
+
+// let movieList = ['johan wike', 'terminator', 'fall'];
+// movieList.push('animal');
+// movieList.pop();
+// console.log(movieList);
+
+let colors = ['green', 'blue'];
+colors.unshift('red');
+let colorsRemove = colors.shift();
+console.log(colorsRemove);
