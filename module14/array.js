@@ -28,7 +28,35 @@
 // movieList.pop();
 // console.log(movieList);
 
-let colors = ['green', 'blue'];
-colors.unshift('red');
-let colorsRemove = colors.shift();
-console.log(colorsRemove);
+// let colors = ['green', 'blue'];
+// colors.unshift('red');
+// let colorsRemove = colors.shift();
+// console.log(colorsRemove);
+
+
+// for loop of array
+// let fruits = ['apple', 'banana', 'mango'];
+// for(let i = 0; i < fruits.length; i++) {
+//     let addFruits = fruits[i] + ['red'];
+//     console.log(addFruits);
+// }
+// let fruits = ["apple", "banana", "mango"];
+
+// for (let i = 0; i < 3; i++) {  // এখানে length না নিয়ে ফিক্সড সংখ্যা দিয়েছি
+//   console.log(fruits[i]);
+//   fruits.push("fruit" + (i + 1));  // নতুন ফ্রুট যোগ হচ্ছে
+// }
+
+// console.log(fruits);
+
+let fruits = ["apple", "banana", "mango"];
+let newFruits = [];
+
+for (let i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+  // নতুন ফ্রুট যুক্ত করলাম
+  newFruits.push(fruits[i]);
+  newFruits.push(fruits[i] + " juice");
+}
+
+console.log(newFruits);
