@@ -39,4 +39,5 @@
 // }else{
 //   console.log('acces is denied');
 // }
-
+const name = ' world';
+console.log(name);
