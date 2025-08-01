@@ -10,4 +10,4 @@ for(let i = 0; i < words.length; i++){
     }
 }
 let result = longest
-console.log(result, index);
+console.log(`${result} ache index number: ${index}`);
