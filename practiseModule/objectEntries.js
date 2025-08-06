@@ -10,4 +10,3 @@ sort.forEach(([word , count])=> {
     console.log(`${word}: ${count}`)
 })
 
-console.log(sort);
