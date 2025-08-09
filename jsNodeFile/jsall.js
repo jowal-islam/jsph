@@ -36,4 +36,17 @@ let assmble = nums1.concat(nums2, nums3);
 // }
 // console.log(newArray.sort((a, b)=> a - b));
 
+// problem solve 02
+let students1 = ["Rafi", "Nabil", "Sakib"];
+let students2 = ["Nabil", "Sadia", "Rafi"];
+let students3 = ["Sakib", "Sami", "Jewel"];
+let allStudent = students1.concat(students2, students3);
+let uniqicArray = [];
+for(let i = 0; i < allStudent.length; i++){
+    if(!uniqicArray.includes(allStudent[i])){
+            uniqicArray.push(allStudent[i]);
+    }
+}
+console.log(uniqicArray.sort((a,b)=> a.localeCompare(b)));
+
 
